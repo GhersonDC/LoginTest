@@ -1,8 +1,10 @@
-# LoginTest
-Prueba de login de la clase 2019
+## LoginTest
 
-Pass test es jsmith y el password es abc123
+LOGIN 2019
 
-checar el js para ver los otros usuarios
+USER--- jsmith
+PASSWORD--- 123
+
+checar el main.js para ver los otros usuarios
 
 ##
