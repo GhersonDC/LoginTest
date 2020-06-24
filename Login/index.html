@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Interface</title>
+    <link href= "css/styleheader.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="js/menu.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body onload="init();">
+    <header>
+        <div id="hamburger">
+            <img src="images/menu_gray.png"
+                onmouseover="this.src='images/menu_green.png';"
+                onmouseout="this.src='images/menu_gray.png';"
+                onclick="toggleMenu();"/>
+        </div>
+        <div id="logo">
+            <img src="images/logo_white.png"/>
+        </div>
+        <div id="user">
+            <img id="userphoto"/>
+            <div id="userdata">
+                <div id="username">username
+
+                </div>
+                <div id="userrole">userrole
+                    
+                </div>
+            </div>
+            <img src="images/config_gray.png" class="configicon"
+                onmouseover="this.src='images/config_green.png';"
+                onmouseout="this.src='images/config_gray.png';"
+                onclick="alert('settings');"/>
+            <img src="images/exit_gray.png" class="exiticon"
+                onmouseover="this.src='images/exit_green.png';"
+                onmouseout="this.src='images/exit_gray.png';"
+                onclick="logout();"/>    
+        </div>
+    </header>
+    <div id="content">
+        
+    </div>
+    
+    
+</body>
+</html>

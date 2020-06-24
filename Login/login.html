@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log in</title>
+    <link href= "css/style.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="js/menu.js"></script>
+    <script src="js/login.js"></script>
+
+</head>
+<body onload="init();" >
+    <header>Log in</header>
+    <div id="content">
+        <div class="window">
+            <h1>Log in</h1>
+                      
+            <label id="labelusername" class="windowlabel">User :</label>
+            <input type="text" id="inputuser"  />
+            
+            <label id="labelpassword" class="windowlabel">Password :</label>
+            <input type="password" id="inputpassword"   />
+            <label id="errorlabel" class="windowerrorlabel">Error</label> 
+            <label id="welcomelabel" class="windowelcomelabel">Welcome </label>
+            <div class="windowbuttons">
+                <button class="windowprimarybutton" onclick="login();">Log in</button>
+                <button class="windowbutton" onclick="clearValues();">Clear</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
